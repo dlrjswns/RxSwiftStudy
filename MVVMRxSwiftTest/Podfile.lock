@@ -1,0 +1,43 @@
+PODS:
+  - Nimble (9.2.1)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxNimble/Core (5.1.2):
+    - Nimble (~> 9.2)
+    - RxSwift (~> 6.0)
+  - RxNimble/RxTest (5.1.2):
+    - RxNimble/Core
+    - RxTest
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxTest (6.5.0):
+    - RxSwift (= 6.5.0)
+
+DEPENDENCIES:
+  - RxCocoa
+  - RxNimble/RxTest
+  - RxSwift
+  - RxTest
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - RxCocoa
+    - RxNimble
+    - RxRelay
+    - RxSwift
+    - RxTest
+
+SPEC CHECKSUMS:
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxNimble: 60c8162b1518306a11d0c272a65ade133b209670
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
+
+PODFILE CHECKSUM: c32d4fef754f6ceb8805b1dc396e42dc09b8aa00
+
+COCOAPODS: 1.11.2
